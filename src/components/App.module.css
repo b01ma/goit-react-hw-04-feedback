@@ -1,0 +1,13 @@
+.App {
+    padding: 20px;
+    max-width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+
+    outline: 1px solid #ccc;
+}
+
+.buttonList {
+    display: flex;
+    gap: 20px;
+}
