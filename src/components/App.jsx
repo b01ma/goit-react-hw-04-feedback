@@ -43,7 +43,7 @@ export const App = () => {
 
   return (
     <div className={css.App}>
-      <Section title="Please leave feadback" titleType="h1">
+      <Section title="Please leave feadback" titleType="1">
         <FeedbackOptions
           options={Object.keys(options)}
           onLeaveFeedback={handleClick}
@@ -51,7 +51,7 @@ export const App = () => {
       </Section>
 
       {Boolean(countTotalFeedback()) ? (
-        <Section title="Statistics" titleType="h2">
+        <Section title="Statistics" titleType="2">
           <Statistics
             good={options.good}
             neutral={options.neutral}
